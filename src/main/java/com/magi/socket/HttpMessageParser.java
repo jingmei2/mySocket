@@ -103,7 +103,7 @@ public class HttpMessageParser {
      * @param res
      * @return
      */
-    private static String buildResponse(Request request,String res){
+    public static String buildResponse(Request request,String res){
         Response response = new Response();
         //直接写返回200了
         response.setCode(200);
